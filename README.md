@@ -1,20 +1,22 @@
 # QAgent Documentation
 
-QAgent 的公开安装与使用文档仓库。
+QAgent 的公开安装、使用与发行文档仓库。
 
-本仓库仅发布用户可见的说明：安装、更新、卸载、使用、故障排查、FAQ、隐私说明、下载校验和发行说明。安装包不提交到 Git；下载入口和 SHA-256 校验值会记录在 [`downloads.md`](downloads.md) 与相应发行说明中。
+本仓库发布用户可见的产品说明、安装与更新指南、故障排查、隐私说明和发行校验信息。安装包不提交到 Git；官方发布入口、版本和 SHA-256 校验值会记录在 [下载与校验](downloads.md) 及相应发行说明中。
 
-## 文档入口
+## 从这里开始
 
+- [快速开始](docs/user-guide/quick-start.md)
+- [安装 QAgent](docs/install/README.md)
+- [使用指南总览](docs/user-guide/README.md)
 - [下载与校验](downloads.md)
-- [安装](docs/install/README.md)
-- [使用指南](docs/user-guide/README.md)
 - [故障排查](docs/troubleshooting/README.md)
 - [常见问题](docs/faq.md)
 - [隐私与数据](docs/privacy-and-data.md)
 - [发行说明](docs/releases/README.md)
-- [公开发布就绪门槛](docs/release-readiness.md)
 
-## Public-content boundary
+## 文档范围
 
-请勿提交源码、内部架构、团队流程、研究过程、原始制品、第三方产品信息、密钥、个人路径、用户数据或未脱敏日志。公开内容发布前，应完成事实、隐私、安全与版权审查。
+QAgent 是用于对话、任务协作、自动化和工具扩展的桌面智能体工作台。文档按实际操作目标组织：先配置模型，再开始对话；需要拆解和跟进的工作在任务中心管理；重复工作可配置为自动化；技能、MCP、角色和设置用于扩展工作方式。
+
+请勿向本仓库提交源码、内部架构、团队流程、研究过程、原始制品、密钥、个人路径、用户数据或未脱敏日志。公开内容发布前应完成隐私、安全和版权审查。
