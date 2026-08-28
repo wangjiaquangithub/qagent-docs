@@ -13,6 +13,7 @@ QAgent 的公开安装与使用文档仓库。
 - [常见问题](docs/faq.md)
 - [隐私与数据](docs/privacy-and-data.md)
 - [发行说明](docs/releases/README.md)
+- [公开发布就绪门槛](docs/release-readiness.md)
 
 ## Public-content boundary
 
