@@ -1,0 +1,19 @@
+# Generated site output and local tooling
+node_modules/
+dist/
+build/
+.site/
+.cache/
+.DS_Store
+
+# Never publish packages, credentials, user data, or raw logs
+*.dmg
+*.pkg
+*.zip
+*.exe
+*.msi
+*.pem
+*.key
+.env
+.env.*
+*.log
